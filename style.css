@@ -11,3 +11,12 @@ html {
 body {
     background-color: #9EB3C2;
 }
+
+.btn-bd-primary {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-black);
+    --bs-btn-bg: #1C7293;
+    --bs-btn-hover-color: var(--bs-black);
+    --bs-btn-hover-bg: #5D93AB;
+    --bs-btn-hover-border-color: var(--bs-black);
+  }
