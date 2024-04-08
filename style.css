@@ -20,3 +20,8 @@ body {
     --bs-btn-hover-bg: #5D93AB;
     --bs-btn-hover-border-color: var(--bs-black);
   }
+
+ul.list-group li.clicked {
+    background-color: #B6C6D2;
+    text-decoration: line-through;
+}

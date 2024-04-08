@@ -20,6 +20,7 @@ function printShoppingList() {
             const listItem = document.createElement('li'); // Create a new li for each item in the list
             listItem.className = 'list-group-item';
             listItem.textContent = item;
+            listItem.addEventListener('click', changeItemStyle); // Add event listener for click
             shoppingListContainer.appendChild(listItem);
         });
     } 
@@ -30,6 +31,17 @@ function printShoppingList() {
         shoppingListContainer.appendChild(noItemsMessage);
     }
 }
+
+function changeItemStyle(event) { // For items that are purchased
+    const listItem = event.target;
+
+    if (listItem.classList.contains('clicked')) {
+        listItem.classList.remove('clicked');
+    } else {
+        listItem.classList.add('clicked');
+    }
+}
+
 
 
 // Event listeners
