@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    min-height: 100vh;
+    position: relative;
+}
+
+body {
+    background-color: #9EB3C2;
+}
