@@ -19,9 +19,16 @@ body {
     --bs-btn-hover-color: var(--bs-black);
     --bs-btn-hover-bg: #5D93AB;
     --bs-btn-hover-border-color: var(--bs-black);
-  }
+}
+
+.list-group-item .btn.btn-danger.btn-sm {
+    text-decoration: none !important;
+}
 
 ul.list-group li.clicked {
     background-color: #B6C6D2;
+}
+
+ul.list-group li.clicked span {
     text-decoration: line-through;
 }
